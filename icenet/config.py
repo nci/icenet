@@ -11,7 +11,8 @@ Defines globals used throughout the codebase.
 
 #data_folder = 'data'
 # ccyr
-data_folder = os.getcwd()+'/../data'
+# data_folder = os.getcwd()+'/../data'
+data_folder = "/g/data/wb00/IceNet/data/"
 obs_data_folder = os.path.join(data_folder, 'obs')
 cmip6_data_folder = os.path.join(data_folder, 'cmip6')
 mask_data_folder = os.path.join(data_folder, 'masks')
